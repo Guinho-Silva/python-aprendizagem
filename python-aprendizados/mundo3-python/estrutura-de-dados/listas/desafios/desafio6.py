@@ -1,0 +1,1 @@
+variaal = int(input('Digite algo'))
