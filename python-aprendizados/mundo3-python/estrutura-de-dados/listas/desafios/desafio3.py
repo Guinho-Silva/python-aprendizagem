@@ -4,7 +4,18 @@ No final, mostre a lista ordenada na tela'''
 
 valoresUsuario = []
 
-for valores in range(0,5):
-    valoresUsuario.append(int(input('Digite um valor: ')))
+for c in range(0,5):
+    valores = int(input('Digite um valor'))
+    if valores == 0:
+        valoresUsuario.append(valores)
+    elif valores > valoresUsuario[-1]:
+        valoresUsuario.append(valores)
+    else:
+        pos = 0
+        while pos < len(valoresUsuario):
+            if valores <= valoresUsuario[pos]:
+                valoresUsuario.insert(pos,valores)
+                break
+            pos +=1
     
-print(valoresUsuario)
+print(f'Os valores digitado em ordem foram{valoresUsuario}')
