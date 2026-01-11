@@ -2,7 +2,7 @@
 
 Neste repositório você encontrará aulas e exercícios feitos na **linguagem `Python`**, utilizando a plataforma ***Curso em Vídeo***, do professor **Gustavo Guanabara**.
 
-## 📘 [MUNDO 2 - PYTHON](/mundo2-python)
+## 📘 [MUNDO 2 - PYTHON](python-aprendizado/mundo2-python)
 
 Neste mundo, o foco do aprendizado foi a utilização de:
 - [ `Condições Aninhadas`](/mundo2-python/condicoes-aninhadas)
@@ -11,7 +11,7 @@ Neste mundo, o foco do aprendizado foi a utilização de:
 
 Além da resolução de **35 exercícios**.
 
-## 📗 [MUNDO 3 - PYTHON](/mundo3-python)
+## 📗 [MUNDO 3 - PYTHON](python-aprendizado/mundo3-python)
 
 Neste mundo, o foco do aprendizado foi a utilização de:
 - [ `Tuplas`](/mundo3-python/estrutura-de-dados/tuplas)
