@@ -1,12 +1,18 @@
-# Meu aprendizado na linguagem Python
+# MEU APRENDIZADO NA LINGUAGEM PYTHON
 
-Nesse arquivo você encontrará aulas e exercícios feitos na **linguagem `Python`** através da plataforma ***CursoemVideo*** do professor **Gustavo Guanabara**.
+Neste repositório você encontrará aulas e exercícios feitos na **linguagem `Python`**, utilizando a plataforma ***Curso em Vídeo***, do professor **Gustavo Guanabara**.
 
-## [Mundo 2-Python](/mundo2-python)
+## 📘 [MUNDO 2 - PYTHON](/mundo2-python)
 
-Neste mundo o foco do aprendizado foi a utilização de  [ `Condições Aninhadas`](/mundo2-python/condicoes-aninhadas), [ `Estrutura de Reptição 'For'`](/mundo2-python/estrutura-repeticao(for)) e  [ `Estrutura de Reptição 'While'`](/mundo2-python/estrutura-repeticao(while)) + a resolução de **35 exercícios** somados.
+Neste mundo, o foco do aprendizado foi a utilização de:
+- [ `Condições Aninhadas`](/mundo2-python/condicoes-aninhadas)
+- [ `Estrutura de Repetição 'For'`](/mundo2-python/estrutura-repeticao%28for%29)
+- [ `Estrutura de Repetição 'While'`](/mundo2-python/estrutura-repeticao%28while%29)
 
+Além da resolução de **35 exercícios**.
 
-## [Mundo 3-Python](/mundo3-python)
+## 📗 [MUNDO 3 - PYTHON](/mundo3-python)
 
-Neste mundo o foco do aprendizado foi a utilização de  [ `Tuplas`](/mundo3-python/estrutura-de-dados/tuplas), [ `Listas`](/mundo3-python/estrutura-de-dados/listas).
+Neste mundo, o foco do aprendizado foi a utilização de:
+- [ `Tuplas`](/mundo3-python/estrutura-de-dados/tuplas)
+- [ `Listas`](/mundo3-python/estrutura-de-dados/listas)
