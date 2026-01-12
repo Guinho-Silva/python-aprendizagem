@@ -39,14 +39,14 @@ while True:
 
 print(f'\nTotal de pessoas cadastradas: {len(ListaPrincipal)}')
 
-print(f'\nPessoas mais pesadas ({maior_peso}kg):')
+print(f'\nPessoas mais pesadas ({maior_peso}kg):', end=' ')
 for pessoa in ListaPrincipal:
     if pessoa[1] == maior_peso:
-        print(pessoa[0])
-
-print(f'\nPessoas mais leves ({menor_peso}kg):')
+        print(pessoa[0], end=' ')
+print()
+print(f'\nPessoas mais leves ({menor_peso}kg):', end=' ')
 for pessoa in ListaPrincipal:
     if pessoa[1] == menor_peso:
-        print(pessoa[0])
-
+        print(pessoa[0], end=' ')
+print()
 print(ListaPrincipal)
