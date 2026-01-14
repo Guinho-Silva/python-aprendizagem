@@ -14,9 +14,9 @@ for linha in range(3):
 
         lista_linha.append(valores)
 
-matrizPrincipal.append(lista_linha)
+    matrizPrincipal.append(lista_linha)
 
-print(matrizPrincipal)
-print(matrizPrincipal[0:3])
-print(matrizPrincipal[4:7])
-print(matrizPrincipal[7:])
+for linha in range(0,3):
+    for coluna in range(0,3):
+        print(f'{matrizPrincipal[linha][coluna]:^5}', end='')
+    print()
