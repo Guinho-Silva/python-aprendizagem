@@ -3,15 +3,22 @@
 '''
 
 from random import randint
-
+from operator import itemgetter
 
 Dado = dict()
 
-for valores in range(1,7):
+for valores in range(1,5):
     Dado[f'{valores}°Jogador'] = randint(1, 6)
 
+rank = dict()
 for key, values in Dado.items():
     print(f'{key:}: {values}')
 
+rank = sorted(Dado.items(), key=itemgetter(1), reverse=True)
+
+print('-='*30)
+print('  == RANKING ==  ')
+for keys, valores in enumerate(rank):
+    print(f'{keys + 1} lugar:  {valores[0]} com {valores[1]}')
 
 
