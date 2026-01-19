@@ -16,4 +16,4 @@ Além da resolução de **35 exercícios**.
 Neste mundo, o foco do aprendizado foi a utilização de:
 - [ `Tuplas`](python-aprendizados/mundo3-python/estrutura-de-dados/tuplas)
 - [ `Listas`](python-aprendizados/mundo3-python/estrutura-de-dados/listas)
-- [ `Listas`](python-aprendizados/mundo3-python/estrutura-de-dados/dicionarios)
+- [ `Dicionários`](python-aprendizados/mundo3-python/estrutura-de-dados/dicionarios)
