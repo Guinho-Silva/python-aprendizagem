@@ -15,8 +15,6 @@ def contador(inicio, fim, passo):
 
         passo = 1
 
- 
-
     if inicio < fim:
 
         passo = passo
@@ -24,10 +22,7 @@ def contador(inicio, fim, passo):
         for valores in range(inicio, fim + 1, passo): 
             print(valores, end=' ', flush=True)
             sleep(0.5)
-        print('\n')
-
-        
-        
+        print('\n')        
 
     else:
         passo = -passo
