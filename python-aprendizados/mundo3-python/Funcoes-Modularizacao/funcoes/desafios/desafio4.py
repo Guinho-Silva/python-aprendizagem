@@ -3,18 +3,31 @@
 
 Seu programa tem que analisar todos os valores e dizer qual deles é o maior.'''
 
-def maior(num, mai, men):
-   
-    if num > mai:
-        mai = num 
-    
-    if num < men:
-        men = num
-    
-    return mai, men
+def maior(* num):
+   cont = mai = 0
 
+   print('\nAnalisando...')
 
-resposta = ''
+   for valores in num:
+        print(f'{valores} ',end='', flush=True)
+
+        if cont == 0:
+            mai = valores
+
+        if valores > mai:
+            mai = valores 
+        
+        cont +=1
+   print(f'\nO maior valor foi {mai}')
+
+maior(2, 1, 4, 8, 8, 20)
+maior(3,4,5,7)
+maior(4,50,33)
+maior(2,6)
+maior(7)
+maior()
+
+'''resposta = ''
 
 ListaNum = list()
 
@@ -44,3 +57,4 @@ print(ListaNum)
 
 print(f'Maior: {mai}')
 print(f'Menor: {men}')
+'''
