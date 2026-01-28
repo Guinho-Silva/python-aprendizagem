@@ -11,6 +11,22 @@ adicione também as docstrings a função
 '''
 
 def notas(lista):
+
+    """
+        Programa para análise de notas de alunos.
+
+        Este programa solicita ao usuário a digitação de várias notas, permitindo
+        que ele decida quando encerrar a entrada de dados. As notas são armazenadas
+        em uma lista e, ao final, são processadas por uma função chamada `notas()`.
+
+        A função `notas()` recebe uma lista de notas e retorna um dicionário contendo:
+        - A quantidade de notas informadas
+        - A maior nota
+        - A menor nota
+        - A média da turma
+    """
+
+
     CadastroNotas = dict()
 
     CadastroNotas['Notas'] = len(lista)
@@ -40,3 +56,5 @@ while True:
 
 CadNotas = notas(listaDados)
 print(CadNotas)
+
+help(notas)
