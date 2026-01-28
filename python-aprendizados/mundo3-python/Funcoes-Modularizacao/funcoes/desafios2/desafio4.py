@@ -3,3 +3,23 @@
 
 ex: leiaint('Digite um n')
 '''
+def leiaint(msg):
+    valorDigitado = False
+
+    valor = 0
+
+    while True:
+        num = str(input(msg))
+
+        if num.isnumeric():
+            valor = int(num)
+            valorDigitado = True
+        else:
+            print('Número inválido! Digite um número inteiro')
+        if valorDigitado:
+            break
+    return valor
+
+n1 = leiaint('Digite um número: ')
+
+print(f'Você digitou o número {n1}')
