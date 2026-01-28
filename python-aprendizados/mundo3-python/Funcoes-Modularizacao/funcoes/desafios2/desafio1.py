@@ -2,9 +2,9 @@
 1)Crie um programa eu uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se a pessoa tem voto negado, opcional ou obrigatório nas eleições.
 '''
 
-from datetime import date
-def voto(ano):
 
+def voto(ano):
+    from datetime import date
     anoAtual = date.today().year
     IdadeTotal = anoAtual - ano
 
