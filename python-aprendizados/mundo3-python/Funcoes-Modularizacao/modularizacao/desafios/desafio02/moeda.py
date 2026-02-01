@@ -26,3 +26,13 @@ def metade(num):
         metade = num / 2
         break
     return metade
+
+def moeda(num):
+    
+    while True:
+        
+        for valor in num:
+            valor =  print('R$',num)
+
+        break
+    return valor
