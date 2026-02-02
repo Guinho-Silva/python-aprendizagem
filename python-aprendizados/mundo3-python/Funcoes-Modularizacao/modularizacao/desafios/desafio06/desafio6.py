@@ -1,0 +1,1 @@
+'''6) Dentro do pacote utilidadesCeV que criamos no desafio 5, temos um modulo chamado dado. Crie uma função chamada leiadinheiro() que seja capaz de funcionar como a função input(), mas com uma validação de dados para aceitar apenas valores que sejam monetários'''
