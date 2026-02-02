@@ -1,8 +1,10 @@
 def leiaMoney(p):
     
     while True:
-        if p == str():
-            print('Digite apenas número!')
-        else:
-            break
-    return p
+
+        valor = input(p).strip()
+        if valor.isnumeric():
+            return float(valor)      
+        else:    
+          print('\033[31mNúmero inválido!\033[m')
+    
