@@ -28,11 +28,4 @@ def metade(num):
     return metade
 
 def moeda(num):
-    
-    while True:
-        
-        for valor in num:
-            valor =  print('R$',num)
-
-        break
-    return valor
+    return f"R$ {num:.2f}".replace('.', ',')
