@@ -1,10 +1,10 @@
-def leiaMoney(p):
-    
-    while True:
+def leiaMoney(msg):
+    valido = False
+    while not valido:
 
-        valor = input(p).strip()
-        if valor.isnumeric():
-            return float(valor)      
-        else:    
-          print('\033[31mNúmero inválido!\033[m')
-    
+        valor = str(input(msg)).replace('.', ',')
+        if valor.isalpha() or valor.strip() == '':
+            print('\033[31m\"{valor}\" é um preço inválido!\033[m')
+        else:   
+            valido = True 
+            return float(valor)   
