@@ -18,3 +18,4 @@ Neste mundo, o foco do aprendizado foi a utilização de:
 - [ `Listas`](python-aprendizados/mundo3-python/estrutura-de-dados/listas)
 - [ `Dicionários`](python-aprendizados/mundo3-python/estrutura-de-dados/dicionarios)
 - [ `Funções`](python-aprendizados/mundo3-python/Funcoes-Modularizacao/funcoes)
+- [ `Modularização`](python-aprendizados/mundo3-python/Funcoes-Modularizacao/modularizacao)
