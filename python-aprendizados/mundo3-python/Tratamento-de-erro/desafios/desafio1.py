@@ -29,6 +29,9 @@ def leiafloat(msg):
     except:
       print(f'\033[31mDigite um número decimal válido!\033[m')
 
+n1= leiaint('Digite um número inteiro')
+print(n1)
+
 
 numero = leiafloat('Digite um número: ')
 print(numero)
