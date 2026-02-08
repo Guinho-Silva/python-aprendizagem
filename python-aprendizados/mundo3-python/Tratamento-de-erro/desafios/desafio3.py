@@ -66,46 +66,57 @@ def lerArquivo(nome):
         print('Erro ao ler o arquivo')
     else:
         menu('PESSOAS CADASTRADAS!')
-        print(arq.read())
+        for linha in arq:
+            dado = linha.split(';')
+            dado[1] = dado[1].replace('\n', '')
+            print(f'{dado[0]:<30}{dado[1]:>3} anos')
+            
+def cadastrar(arq, nome='Não informado', idade = 0):
+    try:
+        arq = open(arq, 'at')
+    
+    except:
+        print('Houve um erro ao abrir o arquivo')
+    
+    else:
+        try:
+            arq.write(f'{nome};{idade}\n')
+        except:
+            print('Houve um erro na hora de escrever os dados')
+        else:
+            print(f'Novo cadastro de {nome} foi adicionado!')
+
 
 file = 'cadastro_pessoas.txt'
 
 if not arquivo(file):
    criaArquivo(file)
 
-def cadastrar():
-    listaCad = list() 
     
-    while True:
+while True:
 
-        opcao = opcoes(['opc1', 'opc2', 'opc3'])
+    opcao = opcoes(['Listar pessoas', 'Cadastrar pessoa', 'Sair'])
 
-        if opcao == 1:
-           lerArquivo(file)
+    if opcao == 1:
+        lerArquivo(file)
 
-        if not listaCad:
+        if not lerArquivo:
             print('Nenhumma pessoa cadastrada.')
-        
-        elif opcao == 2:
-
-            nome = str(input('Nome: '))
-
-            idade = leiaidade('Idade: ')
-
-            listaCad.append([nome, idade])
-            print('Cadastrado(a) com sucesso!')
-
-        elif opcao == 3:
-            print('Saindo...')
-            break
-
-        else:
-            print('Opção inválida')
-    return listaCad
-
     
+    elif opcao == 2:
+        menu('NOVO CADASTRO')
+        nome = str(input('Nome: '))
 
-cadastro = cadastrar()
-print(cadastro)
+        idade = leiaidade('Idade: ')
+
+        cadastrar(file, nome, idade)
+    elif opcao == 3:
+        print('Saindo...')
+        break
+
+    else:
+        print('Opção inválida')
+
+
 
 
