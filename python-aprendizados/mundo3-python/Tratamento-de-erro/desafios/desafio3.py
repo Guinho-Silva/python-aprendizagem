@@ -39,6 +39,30 @@ def opcoes(lista):
     opcao = leiaint('Digite sua opção: ')
     return opcao
 
+def arquivo(nome):
+    try:
+       arq =  open(nome, 'rt')
+       arq.close()
+    
+    except FileNotFoundError:
+        return False
+    
+    else:
+        return True
+
+def criaArquivo(nome):
+    try:
+        arq = open(nome, 'wt+')
+        arq.close()
+    except:
+        print('Houve algum erro na criação do arquivo!')
+    else:
+        print(f'O arquivo \"{nome}\" foi criado com sucesso!')
+
+file = 'cadastro_pessoas.txt'
+
+if not arquivo(file):
+   criaArquivo(file)
 
 def cadastrar():
     listaCad = list() 
@@ -62,7 +86,7 @@ def cadastrar():
 
             listaCad.append([nome, idade])
             print('Cadastrado(a) com sucesso!')
-            
+
         elif opcao == 3:
             print('Saindo...')
             break
@@ -75,6 +99,5 @@ def cadastrar():
 
 cadastro = cadastrar()
 print(cadastro)
-
 
 
