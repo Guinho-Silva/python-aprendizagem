@@ -59,6 +59,15 @@ def criaArquivo(nome):
     else:
         print(f'O arquivo \"{nome}\" foi criado com sucesso!')
 
+def lerArquivo(nome):
+    try:
+        arq = open(nome, 'rt')
+    except:
+        print('Erro ao ler o arquivo')
+    else:
+        menu('PESSOAS CADASTRADAS!')
+        print(arq.read())
+
 file = 'cadastro_pessoas.txt'
 
 if not arquivo(file):
@@ -72,11 +81,10 @@ def cadastrar():
         opcao = opcoes(['opc1', 'opc2', 'opc3'])
 
         if opcao == 1:
-            print(linhas())
-            print(menu('PESSOAS CADASTRADAS'))
-            print(linhas())
-            if not listaCad:
-                print('Nenhumma pessoa cadastrada.')
+           lerArquivo(file)
+
+        if not listaCad:
+            print('Nenhumma pessoa cadastrada.')
         
         elif opcao == 2:
 
