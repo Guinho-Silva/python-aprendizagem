@@ -22,3 +22,6 @@ Neste mundo, o foco do aprendizado foi a utilização de:
 - [ `Tratamendo de Erros`](python-aprendizados/mundo3-python/Tratamento-de-erro)
 
 ## [MUNDO 4 - PYTHON POO](python-aprendizados/mundo4-python)
+
+
+## [Pandas-TeomeWhy](#)
