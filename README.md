@@ -23,5 +23,4 @@ Neste mundo, o foco do aprendizado foi a utilização de:
 
 ## [MUNDO 4 - PYTHON POO](python-aprendizados/mundo4-python)
 
-
-## [Pandas-TeomeWhy](#)
+## [PANDAS - TEOMEWHY](#)
