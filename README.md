@@ -1,5 +1,10 @@
 # 🐍 Aprendizado em Python
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-green)
+
+
 Este repositório reúne meus **estudos, exercícios e práticas na linguagem Python**, realizados ao longo do meu processo de aprendizado.
 
 Os conteúdos incluem desde **conceitos básicos da linguagem** até **manipulação e análise de dados com Pandas**.
