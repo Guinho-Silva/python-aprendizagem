@@ -1,26 +1,94 @@
-# MEU APRENDIZADO NA LINGUAGEM PYTHON
+# 🐍 Aprendizado em Python
 
-Neste repositório você encontrará aulas e exercícios feitos na **linguagem `Python`**, utilizando a plataforma ***Curso em Vídeo***, do professor **Gustavo Guanabara**.
+Este repositório reúne meus **estudos, exercícios e práticas na linguagem Python**, realizados ao longo do meu processo de aprendizado.
 
-## [MUNDO 2 - PYTHON](python-aprendizados/mundo2-python)
+Os conteúdos incluem desde **conceitos básicos da linguagem** até **manipulação e análise de dados com Pandas**.
 
-Neste mundo, o foco do aprendizado foi a utilização de:
-- [ `Condições Aninhadas`](python-aprendizados/mundo2-python/condicoes-aninhadas)
-- [ `Estrutura de Repetição 'For'`](python-aprendizados/mundo2-python/estrutura-repeticao%28for%29)
-- [ `Estrutura de Repetição 'While'`](python-aprendizados/mundo2-python/estrutura-repeticao%28while%29)
+Os exercícios foram realizados principalmente através da plataforma **Curso em Vídeo**, do professor **Gustavo Guanabara**, além de conteúdos do canal **Téo Me Why**.
 
-Além da resolução de **35 exercícios**.
+---
 
-## [MUNDO 3 - PYTHON](python-aprendizados/mundo3-python)
+# 📚 Conteúdo do Repositório
 
-Neste mundo, o foco do aprendizado foi a utilização de:
-- [ `Tuplas`](python-aprendizados/mundo3-python/estrutura-de-dados/tuplas)
-- [ `Listas`](python-aprendizados/mundo3-python/estrutura-de-dados/listas)
-- [ `Dicionários`](python-aprendizados/mundo3-python/estrutura-de-dados/dicionarios)
-- [ `Funções`](python-aprendizados/mundo3-python/Funcoes-Modularizacao/funcoes)
-- [ `Modularização`](python-aprendizados/mundo3-python/Funcoes-Modularizacao/modularizacao)
-- [ `Tratamendo de Erros`](python-aprendizados/mundo3-python/Tratamento-de-erro)
+## 🧠 Mundo 2 — Python
+📂 [Acessar diretório](python-aprendizados/mundo2-python)
 
-## [MUNDO 4 - PYTHON POO](python-aprendizados/mundo4-python)
+Neste módulo o foco foi o desenvolvimento da lógica de programação utilizando:
 
-## [PANDAS - TEOMEWHY](python-pandas/pandas-pratica)
+- Condições Aninhadas
+- Estrutura de repetição `for`
+- Estrutura de repetição `while`
+
+Também foram resolvidos **35 exercícios práticos** para fixação dos conceitos.
+
+---
+
+## 🧠 Mundo 3 — Python
+📂 [Acessar diretório](python-aprendizados/mundo3-python)
+
+Neste módulo foram introduzidas **estruturas de dados e organização de código**, incluindo:
+
+### Estruturas de Dados
+- Tuplas
+- Listas
+- Dicionários
+
+### Organização de Código
+- Funções
+- Modularização
+
+### Tratamento de Erros
+- Uso de `try`, `except` e boas práticas de validação.
+
+---
+
+## 🧠 Mundo 4 — Python (POO)
+📂 [Acessar diretório](python-aprendizados/mundo4-python)
+
+Nesta etapa inicio os estudos de **Programação Orientada a Objetos (POO)** com Python.
+
+Conceitos abordados:
+
+- Classes
+- Objetos
+- Encapsulamento
+- Métodos
+- Organização de código orientado a objetos
+
+---
+
+# 📊 Pandas — Téo Me Why
+📂 [Acessar diretório](python-pandas/pandas-pratica)
+
+Nesta seção estão exercícios e práticas utilizando a biblioteca **Pandas**, com base nos conteúdos do canal **Téo Me Why**.
+
+O foco é desenvolver habilidades em **manipulação e análise de dados com Python**.
+
+Os arquivos estão organizados por **dias de estudo**, onde cada pasta explora **métodos ou atributos específicos da biblioteca**.
+
+### Tópicos estudados
+
+- Series e DataFrames
+- Manipulação de colunas
+- Ordenação de dados (`sort`)
+- Conversão de tipos (`astype`)
+- Substituição de valores (`replace`)
+- Tratamento de valores nulos (`fillna`)
+- Remoção de duplicatas (`drop_duplicates`)
+- Remoção de colunas ou linhas (`drop`)
+- Aplicação de funções (`apply`)
+- Resumo estatístico (`summary`)
+- Agrupamento de dados (`groupby`)
+- Junção de dados (`merge`)
+- Concatenação de dados (`concat`)
+
+---
+
+# 🎯 Objetivo do Repositório
+
+Este repositório serve como:
+
+- Registro da minha evolução no aprendizado de **Python**
+- Espaço para **prática de lógica de programação**
+- Base para **projetos futuros em análise de dados**
+- Portfólio público de estudos na área de **tecnologia e dados**
